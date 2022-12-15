@@ -1,0 +1,317 @@
+/* --------------------- for header and welcome Section --------------------- */
+
+@media only screen and (max-width: 1440px) {
+    .partners-container {
+        display: none;
+    }
+
+    .go-smaller {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991.8px) {
+    .flexxed {
+        gap: 8px;
+    }
+
+    /* mobile screen icon */
+    div#icon {
+        left: 30%;
+    }
+
+    .welcome-A6gnl {
+        font-size: 45px;
+        margin: 212px 12.38% 66px 12.38%;
+    }
+
+    /* scroll fix issues content jumping on position fixed */
+    .margin-topp {
+        margin-top: 311px !important;
+    }
+
+    .go-next-wrapper>div:first-child {
+        font-size: 14px;
+    }
+
+    /* first page */
+
+    /* A6gnl Solar section */
+    div.section-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .A6gnl-contents {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.A6gnl-contents p {
+        width: 75%;
+        margin-inline: auto;
+        font-size: 16px;
+    }
+
+    #more {
+        margin: 2rem auto 1rem auto;
+    }
+
+    a#more.learn-builders {
+        margin-block: 2rem 4rem;
+    }
+
+    div.card-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .card.card-items {
+        width: 45% !important;
+    }
+
+    .each-course {
+        width: 45%;
+    }
+
+    .each-course2 {
+        width: 35%;
+    }
+
+    .flexxed {
+        flex-direction: column;
+    }
+
+    .each-vision {
+        width: 60% !important;
+    }
+
+    /* footer */
+    #footer-container {
+        flex-wrap: wrap;
+    }
+
+    .k-social {
+        margin-top: 1.7rem;
+    }
+
+    .footer-bottom {
+        gap: 0px;
+    }
+}
+
+@media only screen and (max-width: 767.8px) {
+
+    /* welcome sreen */
+    section.k-home {
+        height: 900px;
+    }
+
+    .go-next-wrapper {
+        width: 60%;
+    }
+
+    /* first screen */
+    .second-step {
+        padding: 0px;
+    }
+
+    .course-upper {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .each-course {
+        width: 80%;
+    }
+
+    .each-course2 {
+        width: 80%;
+    }
+    .each-vision {
+        width: 75% !important;
+    }
+
+    /* for second page */
+    div.artboard,
+    div.artboardsolar {
+        display: none;
+    }
+
+    /* footer */
+    .k-contact {
+        margin-top: 1.7rem;
+    }
+
+    .footer-bottom div {
+        padding-left: 20px;
+    }
+
+    p.builders-contents {
+        width: 100%;
+    }
+
+    .card.card-items {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .project-form {
+        flex-direction: column;
+    }
+
+    .left-form {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .right-form {
+        width: 100%;
+        align-items: center;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 575.8px) {
+
+    /* mobile menu  */
+    .mobile-menu-content ul li a {
+        font-size: 12px !important;
+    }
+
+    .go-next-wrapper {
+        width: 70%;
+    }
+
+    .go-next-wrapper>div:first-child {
+        font-size: 12px;
+    }
+
+    /* welcome sreen */
+    section.k-home {
+        height: 650px;
+    }
+
+    /* scroll fix issues content jumping on position fixed */
+    .margin-topp {
+        margin-top: 179px !important;
+    }
+
+    .welcome-A6gnl {
+        font-size: 25px;
+        margin: 80px 12.38% 50px 12.38%;
+    }
+    .welcome-A6gnl.about-A6gnl {
+        margin-bottom: 0;
+    }
+    .small-text {
+        font-size: 16px;
+    }
+    #about-the-core-builders>div:first-child h1 {
+        font-size: 30px;
+    }
+
+    .section-wrapper {
+        padding-block: 25px;
+    }
+
+    /*footer  */
+    #footer-container {
+        flex-direction: column !important;
+    }
+
+    .k-company {
+        margin-top: 1.7rem;
+    }
+
+    footer>div>div>h2 {
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    section.k-home {
+        height: 550px !important;
+    }
+
+    .welcome-A6gnl {
+        margin: 45px 12.38% 50px 12.38%;
+    }
+
+    /* first page  solar section*/
+    div.A6gnl-contents h2 {
+        font-size: 30px;
+    }
+
+    div.A6gnl-contents div.learn-more {
+        font-size: calc(1rem - 6px);
+    }
+
+    /* scroll fix issues content jumping on position fixed */
+    .margin-topp {
+        margin-top: 144px !important;
+    }
+    /* abiut us page */
+    .small-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .welcome-A6gnl.about-A6gnl {
+        margin-bottom: 0;
+    }
+}
+
+/* samsung galaxy fold 280px */
+
+@media only screen and (max-width: 280px) {
+    div#icon {
+        left: 20%;
+    }
+
+    section.k-home {
+        height: 550px !important;
+    }
+
+    .welcome-A6gnl {
+        font-size: 18px;
+        margin: 45px 12.38% 50px 12.38%;
+    }
+
+    .go-next-wrapper>div:first-child {
+        font-size: 10px;
+    }
+
+    .go-next-wrapper {
+        width: 80%;
+    }
+
+    div.A6gnl-contents div.learn-more {
+        font-size: calc(1rem - 6px);
+    }
+
+    .go-smaller {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .go-smaller {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .go-smaller {
+        font-size: 12px;
+    }
+
+    #card1 {
+        padding: 0px;
+        width: 70% !important;
+    }
+
+    #card2 {
+        width: 70% !important;
+        padding: 0px;
+    }
+}

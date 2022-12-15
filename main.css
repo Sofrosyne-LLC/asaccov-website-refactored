@@ -1,0 +1,8 @@
+/* import global styles */
+@import url("components/global.css");
+/* import style one */
+@import url("components/styleOne.css");
+/* import style three */
+@import url("components/styleTwo.css");
+/* import media query css */
+@import url("components/mediaQuery.css");
