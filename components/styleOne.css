@@ -396,6 +396,7 @@ p.builders-contents {
   font-size: 18px;
   line-height: 166.4%;
   color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 40px !important;
 
 }
 
@@ -416,17 +417,25 @@ div.artboard {
 .partners-container {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  position: absolute;
+  bottom: -37px;
+  padding: 0px 35px;
+
 }
 
 div.partners {
-  padding-block: 17px;
+  padding: 17px;
   background: var(--colorWhite);
   border: 0.582353px solid rgba(0, 0, 0, 0.25);
   box-shadow: 1.16471px 17.4706px 26.2059px rgba(22, 22, 22, 0.1);
   border-radius: 13.9765px;
   gap: 10px;
-  bottom: -35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 div.partners img {
